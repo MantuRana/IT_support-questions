@@ -1,0 +1,47 @@
+✅ What is Microsoft Outlook? (Interview Answer)
+
+Microsoft Outlook is an email client and personal information manager used to manage emails, contacts, calendars, tasks, and meetings. 
+It is widely used in organizations for communication and scheduling. 
+Outlook is part of the Microsoft Office suite and works with Exchange Server, Microsoft 365, IMAP, and POP email accounts.
+
+⭐•	How do You take backup in Microsoft Outlook ?
+
+“To take a backup in Outlook, I export the mailbox to a PST file using File → Open & Export → Import/Export → Export to a File → Outlook Data File (.PST). 
+Then I choose the folders to back up, select a location, and save the PST.”
+
+✅ Difference Between IMAP and POP & Function of SMTP?
+“IMAP keeps emails on the server and syncs them across all devices, while POP downloads emails to the local device and removes them from the server. 
+IMAP is modern and supports multi-device access; POP is older and local-only.
+Default Port
+143 / 993 (SSL)
+110 / 995 (SSL)
+
+⭐ 2. What is the Function of SMTP?
+SMTP is used for sending outgoing emails from the client to the mail server and between servers. 
+IMAP is used to receive and sync emails from the server, 
+while POP downloads emails to the local system without synchronization.
+
+✅ If a user is facing sending/receiving issues in Outlook, how do you resolve it?
+
+If a user can’t send or receive emails in Outlook, I first check the internet and ensure Outlook is not in offline mode. 
+Then I verify server settings—IMAP/POP/SMTP ports and authentication. I check the Outbox for stuck mails, repair the Outlook profile, 
+clear cache, and disable antivirus if it’s blocking SMTP. If the issue persists, 
+I recreate a new Outlook profile and reconfigure the account.”
+
+⭐ “If a PST file is corrupted?
+
+ I first take a backup and then run Microsoft’s Inbox Repair Tool (ScanPST.exe) to repair it. 
+If it repairs partially, I create a new PST and import recovered data. If ScanPST cannot fix it, 
+I use a third-party PST repair tool to extract the emails. This way, I recover maximum mailbox data safely.”
+
+
+
+
+
+
+
+
+
+
+
+
