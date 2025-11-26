@@ -1,14 +1,19 @@
-##✅ Interview Answer: How to Setup a Network Printer (Windows)
+#✅ Interview Answer: How to Setup a Network Printer (Windows)
 
 Ensure the printer is connected to the network using Wi-Fi or LAN cable and confirm both printer and PC are on the same network.
-
 Check the printer’s IP address from the printer’s network settings.
-
-On the system, I go to Settings → Bluetooth & devices → Printers & scanners and click Add device.
-
+after that I will go to Settings → Bluetooth & devices → Printers & scanners and click Add device.
 If Windows doesn’t detect it, I choose Add manually and select
 ‘Add a printer using a IP address’.
 
 Install the correct printer driver, either automatically or through the official manufacturer website.
-
 Finally, I print a test page to verify that the printer is installed and working properly
+
+🖨️ Printer Setup – Interview Answer
+1. How do you set up a USB Printer?
+✔ Connect the printer to the PC using a USB cable
+✔ Turn on the printer
+✔ Windows installs the driver automatically
+✔ If not, install the driver manually from the manufacturer website
+✔ Go to Settings → Printers & Scanners → Add Printer
+✔ Select the printer and print a test page
