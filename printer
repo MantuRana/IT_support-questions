@@ -1,3 +1,13 @@
+✅  Shareable Network Printer Setup
+first i will check internet connection after that connect the printer to the host PC using USB and 
+install the drivers according to model and 
+Then enable Printer Sharing from Printer Properties and ensure Network Discovery and 
+File & Printer Sharing are turned on in Advanced Sharing Settings. 
+Other users can connect by entering \Host-PC-Name or its IP and installing drivers.
+For IP-based network printers, connect the printer to LAN/Wi-Fi, note the IP address, 
+and add it in Windows using the ‘Add printer using TCP/IP address’ option. After installing drivers, 
+print a test page to confirm successful setup.”
+
 #✅ Interview Answer: How to Setup a Network Printer (Windows)
 
 Ensure the printer is connected to the network using Wi-Fi or LAN cable and confirm both printer and PC are on the same network.
