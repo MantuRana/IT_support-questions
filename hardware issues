@@ -1,4 +1,4 @@
-🧑‍💻✅ 3. What would you do if a user reports that their system is slow or not booting properly?
+🧑‍💻✅ 3.system is slow or not booting properly?
 Answer:
 First, I check for high CPU/RAM usage, background processes, and startup programs. 
 If it’s not booting, I troubleshoot using safe mode or recovery tools, 
@@ -13,7 +13,27 @@ I check BIOS settings and boot order, and if the system powers on but OS doesn�
  I first check the power source, power cable, and adapter connection. 
  Then I check the battery or SMPS, and verify if any lights or fan activity is present. 
  I also reseat the RAM and power cables, and test with another power source. 
- If there’s still no response, I suspect a hardware issue like motherboard or power supply failure and escalate it to the hardware team.
+ If there’s still no response, I suspect a hardware issue like motherboard or 
+power supply failure and escalate it to the hardware team.
+
+7.✅✅ Touchpad Not Working
+
+Causes: Disabled touchpad, driver corruption, hardware issue.
+Troubleshooting:
+Enable touchpad (Fn + key).
+Update/reinstall driver.
+Check touchpad settings.
+Reseat/replace touchpad module.
+
+12.✅✅ Wi-Fi Button/Adapter Not Detected
+
+Causes: Disabled adapter, driver issue, airplane mode, hardware failure.
+Troubleshooting:
+Enable Wi-Fi adapter in Device Manager.
+Reinstall Wi-Fi drivers.
+Turn off Airplane mode.
+Reset network settings.
+Replace Wi-Fi card if not detected.
 
 1.✅✅ No Power / Not Turning On
 Causes: Faulty adapter, loose power cable, drained battery, motherboard issue.
@@ -70,15 +90,6 @@ Clean keys.
 Reseat keyboard connector (for laptops).
 Replace keyboard if damaged.
 
-7.✅✅ Touchpad Not Working
-
-Causes: Disabled touchpad, driver corruption, hardware issue.
-Troubleshooting:
-Enable touchpad (Fn + key).
-Update/reinstall driver.
-Check touchpad settings.
-Reseat/replace touchpad module.
-
 8.✅✅ Screen Flickering / No Display / Lines on Screen
 
 Causes: Loose display cable, GPU failure, LCD issue.
@@ -116,15 +127,7 @@ Test RAM sticks one by one.
 Run Memory Diagnostic.
 Replace faulty RAM stick.
 
-12.✅✅ Wi-Fi Button/Adapter Not Detected
 
-Causes: Disabled adapter, driver issue, airplane mode, hardware failure.
-Troubleshooting:
-Enable Wi-Fi adapter in Device Manager.
-Reinstall Wi-Fi drivers.
-Turn off Airplane mode.
-Reset network settings.
-Replace Wi-Fi card if not detected.
 
 
 
