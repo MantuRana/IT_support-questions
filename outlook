@@ -1,7 +1,7 @@
-✅ What is Microsoft Outlook? (Interview Answer)
+✅✅ What is Microsoft Outlook? (Interview Answer)
 
-Microsoft Outlook is an email client and personal information manager used to manage emails, contacts, calendars, tasks, and meetings. 
-It is widely used in organizations for communication and scheduling. 
+Microsoft Outlook is an email client and personal information manager used to manage emails, contacts, calendars, tasks,
+and meetings. It is widely used in organizations for communication and scheduling. 
 Outlook is part of the Microsoft Office suite and works with Exchange Server, Microsoft 365, IMAP, and POP email accounts.
 
 ⭐•	How do You take backup in Microsoft Outlook ?
@@ -9,19 +9,37 @@ Outlook is part of the Microsoft Office suite and works with Exchange Server, Mi
 “To take a backup in Outlook, I export the mailbox to a PST file using File → Open & Export → Import/Export → Export to a File → Outlook Data File (.PST). 
 Then I choose the folders to back up, select a location, and save the PST.”
 
-✅ Difference Between IMAP and POP & Function of SMTP?
-“IMAP keeps emails on the server and syncs them across all devices, while POP downloads emails to the local device and removes them from the server. 
+✅✅How to Configure Mail in Outlook?
+first i will open Gmail in web browser and enable Two-Step Verification on the email account and generate an App Password.
+Then I go to the mail settings and enable IMAP or POP access.
+In Outlook, I open File → Add Account and enter the email ID.
+If needed, I choose Manual Setup and enter the correct IMAP/SMTP server details.
+Finally, I use the app password to authenticate and send a test mail to confirm the setup.
+
+✅✅PST(personal storage table) and OST(offline storage table)?
+**PST := 1.**PST files are designed for backup.You can create a PST file to store emails, contacts,
+2. PST files are stored locally on your computer.
+3. it doesn't synchronize with any server.(POP)
+
+**OST:= 1.**OST files are used for offline access to your email account data.
+2. OST files synchronize with your mailbox on the Exchange server.(Exchange Server, Microsoft 365, or IMAP)
+
+✅✅ Difference Between IMAP and POP & Function of SMTP?
+“IMAP keeps emails on the server and syncs them across all devices, while 
+POP downloads emails to the local device and removes them from the server. 
 IMAP is modern and supports multi-device access; POP is older and local-only.
 Default Port
 143 / 993 (SSL)
 110 / 995 (SSL)
 
 ⭐ 2. What is the Function of SMTP?
-SMTP is used for sending outgoing emails from the client to the mail server and between servers. 
-IMAP is used to receive and sync emails from the server, 
-while POP downloads emails to the local system without synchronization.
+IMAP Emails are stored on the mail server and Syncs emails across multiple devices.
 
-✅ If a user is facing sending/receiving issues in Outlook, how do you resolve it?
+POP Emails are downloaded to the local device and emails are removed from the server after download.
+
+SMTP is used for sending emails from the client to the server and between mail servers.
+
+✅✅ If a user is facing sending/receiving issues in Outlook, how do you resolve it?
 
 If a user can’t send or receive emails in Outlook, I first check the internet and ensure Outlook is not in offline mode. 
 Then I verify server settings—IMAP/POP/SMTP ports and authentication. I check the Outbox for stuck mails, repair the Outlook profile, 
