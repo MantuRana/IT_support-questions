@@ -16,6 +16,13 @@ I check BIOS settings and boot order, and if the system powers on but OS doesn�
  If there’s still no response, I suspect a hardware issue like motherboard or 
 power supply failure and escalate it to the hardware team.
 
+✅✅“BSOD stands for Blue Screen of Death, first i will note the stop code,
+and scan the QR code then boot the system in Safe Mode, check for recent
+driver or software changes, update or roll back drivers, and run the sfc /scannow command 
+for check the corrupted files then repair the files like other command chkdsk /f/r/c. 
+If the issue continues, I’d check hardware components like RAM or hard drive and
+use System Restore or reinstall Windows if necessary.”
+
 7.✅✅ Touchpad Not Working
 
 Causes: Disabled touchpad, driver corruption, hardware issue.
