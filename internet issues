@@ -1,0 +1,23 @@
+✅ LAN Troubleshooting – Brief Summary
+⦁	Check LAN cable, port lights, and switch/router connection.
+⦁	Ensure Ethernet adapter is enabled.
+⦁	Verify IP using ipconfig (check gateway & DNS).
+⦁	Ping gateway and server to test connectivity.
+⦁	Update or reinstall LAN driver.
+⦁	Disable/enable the adapter or change cable/port.
+
+✅ Wi-Fi Troubleshooting – Brief Summary
+⦁	Ensure Wi-Fi is ON and airplane mode is OFF.
+⦁	Forget and reconnect to Wi-Fi network.
+⦁	Restart router and check if other devices connect.
+⦁	Check IP address and renew IP.
+⦁	Improve signal strength (move closer to router).
+⦁	Update/reinstall Wi-Fi driver.
+⦁	Reset network settings if needed.
+
+
+📶 Difference Between 2.4 GHz and 5 GHz Wi-Fi Bands
+Feature	2.4 GHz (2.5G)	5 GHz
+Speed	Slower (up to 450 Mbps) 	Faster (up to 1300 Mbps or more)
+Range	Longer range – covers more area 	Shorter range – covers smaller area
+Interference	More interference (shared with Bluetooth, microwaves, etc.)	Less interference – cleaner signal
