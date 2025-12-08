@@ -1,4 +1,4 @@
-✅ LAN Troubleshooting – Brief Summary
+✅✅ LAN Troubleshooting – Brief Summary
 ⦁	Check LAN cable, port lights, and switch/router connection.
 ⦁	Ensure Ethernet adapter is enabled.
 ⦁	Verify IP using ipconfig (check gateway & DNS).
@@ -6,7 +6,7 @@
 ⦁	Update or reinstall LAN driver.
 ⦁	Disable/enable the adapter or change cable/port.
 
-✅ Wi-Fi Troubleshooting – Brief Summary
+✅✅ Wi-Fi Troubleshooting – Brief Summary
 ⦁	Ensure Wi-Fi is ON and airplane mode is OFF.
 ⦁	Forget and reconnect to Wi-Fi network.
 ⦁	Restart router and check if other devices connect.
@@ -21,3 +21,86 @@ Feature	2.4 GHz (2.5G)	5 GHz
 Speed	Slower (up to 450 Mbps) 	Faster (up to 1300 Mbps or more)
 Range	Longer range – covers more area 	Shorter range – covers smaller area
 Interference	More interference (shared with Bluetooth, microwaves, etc.)	Less interference – cleaner signal
+
+✅✅1. Internet not working — how do you troubleshoot?
+
+First, I check physical connectivity like LAN cable or Wi-Fi status.
+Then I run ipconfig to verify IP, gateway, and DNS.
+Next, I ping the gateway, 8.8.8.8, and a website to find where it breaks.
+I flush DNS, reset network adapter, or reconfigure IP if needed.
+If the issue persists, I check router/ISP status.
+
+✅✅2. What is DNS and why is it important?
+
+DNS translates domain names into IP addresses so browsers can locate websites.
+Without DNS, users cannot open websites even if the internet works.
+Common DNS issues cause “server not found” or slow browsing.
+Troubleshooting includes flushing DNS or changing to Google DNS.
+DNS is critical for smooth internet access.
+
+✅✅3. What is DHCP? How does it work?
+
+DHCP automatically assigns IP, mask, gateway, and DNS to clients.
+It avoids manual configuration and prevents IP conflicts.
+When a device joins a network, it sends a DHCP Discover request.
+The DHCP server responds and assigns an available IP.
+This makes network management simple and scalable.
+
+✅✅4. Connected to Wi-Fi but no internet — how do you fix?
+
+First, I check if the device has a valid IP or APIPA (169.x.x.x).
+Then I ping the gateway and DNS to see where it fails.
+I flush DNS, reset TCP/IP stack, or reconnect Wi-Fi.
+Check if proxy or firewall settings block the internet.
+If everything is fine locally, I check router/ISP issues.
+
+✅✅5. Public IP vs Private IP — explain.
+
+Private IPs are used inside local networks and cannot be accessed from the internet.
+Public IPs are assigned by ISP and allow global communication.
+Private IP ranges include 192.168.x.x, 10.x.x.x, 172.16.x.x.
+Public IP is unique on the internet.
+Private IP is for internal communication only.
+
+✅✅6. How do you check network connectivity?
+
+I start with ipconfig to verify network configuration.
+Use ping to check reachability to gateway and external servers.
+Tracert helps identify where the packet drops on the route.
+Nslookup helps check DNS resolution.
+All these tools help isolate the exact point of failure.
+
+✅✅7. What is VPN and why is it used?
+
+VPN creates a secure encrypted tunnel over public internet.
+Companies use VPN for remote employees to access internal resources safely.
+It protects data from interception.
+Useful for secure RDP, file access, and applications.
+VPN ensures privacy and security while working remotely.
+
+✅✅8. What is APIPA and when does it occur?
+
+APIPA address (169.254.x.x) is assigned when DHCP fails to provide an IP.
+It means the system cannot communicate with the router or DHCP server.
+Devices with APIPA cannot access the internet.
+It is common due to cable issues, router problems, or DHCP service failure.
+Solution: restart adapter, check DHCP, or configure IP manually.
+
+✅✅9. How do you identify ISP-level issues?
+
+If gateway ping is successful but ping to 8.8.8.8 fails, it indicates ISP issue.
+I check router lights and WAN status.
+Restart the router/ONT to refresh connection.
+Test using another device or hotspot for comparison.
+If still unresolved, escalate to ISP with diagnostics.
+
+✅✅10. Explain Gateway and its role.
+
+A gateway routes traffic from local network to external networks (internet).
+Without a gateway, systems only communicate within LAN.
+It is usually the router’s IP (e.g., 192.168.1.1).
+Gateway determines where to send outbound traffic.
+It is essential for internet access.
+
+
+
