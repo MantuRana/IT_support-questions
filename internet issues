@@ -1,3 +1,12 @@
+✅✅ when the internet isnot working?
+ first i will check all connection like line connection and port connection after that will go to 
+ command prompt type ping for check for connectivity.
+ . ipconfig - show network information
+ . ipconfig /release and ipconfig /renew .
+ . ipconfig /flusdns - remove dns resolution/cash
+ . nslookup - check dns resolution
+ . tracert - check and identify connection drop point.
+
 ✅✅ LAN Troubleshooting – Brief Summary
 ⦁	Check LAN cable, port lights, and switch/router connection.
 ⦁	Ensure Ethernet adapter is enabled.
